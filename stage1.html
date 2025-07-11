@@ -1,42 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portfolio Enzo</title>
+  <title>Portfolio Enzo - Stage 1</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  
-<div class="top-banner">
-  <a href="index.html">Portfolio de Enzo</a>
-</div>
 
-<header>
-  <nav>
-    <ul class="main-menu">
-      <li class="dropdown">
-        <a href="#">Veilles Documentaires ↓</a>
-        <ul class="dropdown-menu">
-          <li><a href="cybersecurite.html">Cybersécurité</a></li>
-          <li><a href="reseaux.html">5G / 6G</a></li>
-        </ul>
-      </li>
-      <li><a href="stage1.html">Description de stage 1</a></li>
-      <li><a href="stage2.html">Description de stage 2</a></li>
-      <li><a href="conduites.html">Guide de bonnes conduites</a></li>
-      <li><a href="synthese.html">Tableau de synthèse</a></li>
-    </ul>
-  </nav>
-</header>
+  <div class="top-banner">
+    <a href="index.html">Portfolio de Enzo</a>
+  </div>
 
+  <header>
+    <nav>
+      <ul class="main-menu">
+        <li class="dropdown">
+          <a href="#">Veilles Documentaires ↓</a>
+          <ul class="dropdown-menu">
+            <li><a href="cybersecurite.html">Cybersécurité</a></li>
+            <li><a href="reseaux.html">5G / 6G</a></li>
+          </ul>
+        </li>
+        <li><a href="stage1.html">Description de stage 1</a></li>
+        <li><a href="stage2.html">Description de stage 2</a></li>
+        <li><a href="conduites.html">Guide de bonnes conduites</a></li>
+        <li><a href="synthese.html">Tableau de synthèse</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <!-- Galerie 1 -->
+    <div class="stage-gallery" data-gallery-id="Accueil">
+      <div class="stage-gallery-button" title="Ouvrir la galerie stage 1">
+        <img src="imgstage1/Accueil Logiciel/FEN_Accueil.png" alt="FEN_Accueil" />
+        <img src="imgstage1/Accueil Logiciel/BTN_IMPORTATION_Accueil.png" alt="BTN_IMPORTATION_Accueil" />
+        <img src="imgstage1/Accueil Logiciel/BTN_PORT_Accueil.png" alt="BTN_PORT_Accueil" />
+        <img src="imgstage1/Accueil Logiciel/BTN_COMPTA_Accueil.png" alt="BTN_COMPTA_Accueil" />
+        <img src="imgstage1/Accueil Logiciel/BTN_SOLDE_Accueil.png" alt="BTN_SOLDE_Accueil" />
+        <img src="imgstage1/Accueil Logiciel/BTN_MODELE_MAIL_Accueil.png" alt="BTN_MODELE_MAIL_Accueil" />
+        <img src="imgstage1/Accueil Logiciel/BTN_FERMER_Accueil.png" alt="BTN_FERMER_Accueil" />
+      </div>
+      <div class="stage-gallery-title">Stage 1 - Projet A</div>
+    </div>
 
+    <!-- Galerie 2 -->
+    <div class="stage-gallery" data-gallery-id="stage2">
+      <div class="stage-gallery-button" title="Ouvrir la galerie stage 2">
+        <img src="images/stage2-1.jpg" alt="Photo 1" />
+        <img src="images/stage2-2.jpg" alt="Photo 2" />
+      </div>
+      <div class="stage-gallery-title">Stage 2 - Projet B</div>
+    </div>
 
+  </main>
 
-<footer>
-  &copy; 2025 Enzo Portfolio. Tous droits réservés.
-</footer>
+  <footer>
+    &copy; 2025 Enzo Portfolio. Tous droits réservés.
+  </footer>
+
+  <script src="stage1.js"></script>
 
 </body>
+
 </html>
