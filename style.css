@@ -78,7 +78,7 @@ header h1 {
 
 /* Banner */
 .banner {
-  background: url('https://portfolioenzo7.files.wordpress.com/2022/09/presentation-2.jpg') no-repeat center/cover;
+  background-color: white;
   height: 400px;
   display: flex;
   justify-content: center;
