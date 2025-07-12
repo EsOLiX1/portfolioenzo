@@ -390,3 +390,20 @@ footer {
 .stage-lightbox-close:hover {
   color: #000;
 }
+
+.fonctions-windev {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.fonctions-windev h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.fonctions-windev p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
